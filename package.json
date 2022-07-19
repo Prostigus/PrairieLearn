@@ -17,7 +17,7 @@
         "@prairielearn/html": "^2.0.0",
         "@prairielearn/opentelemetry": "^1.0.0",
         "ace-builds": "^1.7.1",
-        "ajv": "^7.1.1",
+        "ajv": "^8.11.0",
         "ansi_up": "^5.1.0",
         "archiver": "^5.3.1",
         "async": "^3.2.4",
