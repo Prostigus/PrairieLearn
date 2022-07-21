@@ -1,4 +1,4 @@
-# Running in Production
+# Running in Production Dockerized
 
 As the PrairieLearn source code is publicly-available, it's possible to run PrairieLearn on your own infrastructure. Running a single instance of the PrairieLearn server may be appropriate for tens or hundreds of total users, and a number of universities have done this successfully.
 
