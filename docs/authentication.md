@@ -28,7 +28,8 @@ Now add the keys to `config.json`:
 "googleClientId": "Your Client ID key",
 "googleClientSecret": "Your Client Secret key",
 "googleRedirectUrl": "https://yourdomain/pl/oauth2callback",
-"hasOauth": true
+"hasOauth": true,
+"authType": "x-auth"
 }
 ```
 
