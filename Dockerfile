@@ -15,6 +15,7 @@ RUN cd /PrairieLearn \
     && yarn install --frozen-lockfile \
     && yarn cache clean
 
+RUN pip install gibberish
 # NOTE: Modify .dockerignore to whitelist files/directories to copy.
 COPY . /PrairieLearn/
 
