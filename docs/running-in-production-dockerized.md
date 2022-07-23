@@ -25,11 +25,8 @@ The `config.json` file should contain appropriate overrides for the keys in [`li
 
 ## Reverse Proxy
 
-- TODO:
-```sh
-# How to setup reverse proxy
-# How to setup port
-```
+> A reverse proxy can be implemented using something like [Apache](https://httpd.apache.org/docs/2.4/howto/reverse_proxy.html) or [NGINX](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/).
+
 In `config.json` to configure your domain add:
 
 ```sh
