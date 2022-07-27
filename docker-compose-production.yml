@@ -9,6 +9,7 @@ services:
       - 3000:3000
     volumes:
       - ./elements:/PrairieLearn/elements
+      - psql:/var/postgres
       - /var/run/docker.sock:/var/run/docker.sock
       - ${HOME}/pl_ag_jobs:/jobs
       
@@ -17,3 +18,5 @@ services:
       - HOST_JOBS_DIR=${HOME}/pl_ag_jobs
       - NODE_ENV=production
       
+volumes:
+   psql:
